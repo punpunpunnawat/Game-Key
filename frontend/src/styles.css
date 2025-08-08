@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --rose-color: #f43f5e;
+  --neutral-color: #262626;
+  --background-color: #333333;
+;
+}
+
+.test {
+  background-color: var(--rose-color);
+}
+
+body {
+  margin: 0;
+  font-family: "Bayon", cursive, sans-serif;
+}

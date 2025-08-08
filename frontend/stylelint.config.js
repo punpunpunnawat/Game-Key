@@ -1,0 +1,87 @@
+module.exports = {
+  plugins: ['stylelint-order'],
+  rules: {
+    'order/properties-order': [
+      [
+        'all',
+
+        // Positioning
+        'position',
+        'top',
+        'right',
+        'bottom',
+        'left',
+        'z-index',
+
+        // Display & Box model
+        'display',
+        'flex',
+        'flex-grow',
+        'flex-shrink',
+        'flex-basis',
+        'flex-direction',
+        'flex-wrap',
+        'justify-content',
+        'align-items',
+        'align-content',
+        'order',
+        'float',
+        'clear',
+        'width',
+        'min-width',
+        'max-width',
+        'height',
+        'min-height',
+        'max-height',
+        'margin',
+        'margin-top',
+        'margin-right',
+        'margin-bottom',
+        'margin-left',
+        'padding',
+        'padding-top',
+        'padding-right',
+        'padding-bottom',
+        'padding-left',
+        'overflow',
+        'overflow-x',
+        'overflow-y',
+
+        // Typography
+        'font-family',
+        'font-size',
+        'font-weight',
+        'line-height',
+        'letter-spacing',
+        'text-align',
+        'text-decoration',
+        'text-transform',
+        'color',
+
+        // Background & Border
+        'background',
+        'background-color',
+        'background-image',
+        'background-position',
+        'background-repeat',
+        'background-size',
+        'border',
+        'border-width',
+        'border-style',
+        'border-color',
+        'border-radius',
+        'box-shadow',
+
+        // Other visual
+        'opacity',
+        'visibility',
+        'cursor',
+        'transition',
+        'transform',
+      ],
+      {
+        unspecified: 'bottomAlphabetical',
+      },
+    ],
+  },
+};

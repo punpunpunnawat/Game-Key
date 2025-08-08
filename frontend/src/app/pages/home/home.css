@@ -1,0 +1,72 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home__logo {
+  display: flex;
+  flex: 0.4;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--rose-color);
+}
+
+.home__content {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+  padding: 96px 128px;
+  background-color: var(--background-color);
+  gap: 96px;
+}
+
+.home__content_about {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+}
+
+.home__content_about_header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.home__content_about_header_what-is {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  opacity: 0.6;
+}
+
+.home__content_about_explain {
+  flex: 1;
+  opacity: 0.4;
+}
+
+.home__content_platform {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 48px;
+}
+
+.platform-button {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  background-color: var(--rose-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  aspect-ratio: 1 / 1;
+}
+
+.platform-button:hover {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.3);
+}
+
