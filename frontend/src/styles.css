@@ -14,3 +14,28 @@ body {
   margin: 0;
   font-family: "Bayon", cursive, sans-serif;
 }
+
+h1 {
+  margin: 0;
+  font-size: 96px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+h2 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+input {
+  font-family: "Bayon", cursive, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: var(--background-color);
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}

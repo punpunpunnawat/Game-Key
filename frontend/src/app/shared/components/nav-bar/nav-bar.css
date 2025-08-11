@@ -84,3 +84,7 @@
 .nav-button:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+.nav-button.active::after {
+  transform: translateX(0);
+}

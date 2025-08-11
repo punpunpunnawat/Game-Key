@@ -1,0 +1,22 @@
+.steam {
+  display: flex;
+  flex-direction: column;
+}
+
+.steam__banner {
+  display: flex;
+  align-items: center;
+  height: 320px;
+  padding: 0px 160px;
+  background-color: var(--rose-color);
+  gap: 160px;
+}
+
+.steam__banner_detail {
+  color: var(--neutral-color);
+}
+
+.steam__content {
+  display: flex;
+  flex-direction: column;
+}

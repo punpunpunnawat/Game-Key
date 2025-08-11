@@ -1,0 +1,7 @@
+<ul class="game-tag-menu">
+  @for (tag of tagsName(); track tag) {
+  <button class="game-tag-menu__button" (click)="onTagClick(tag)">
+    {{ tag }}
+  </button>
+  }
+</ul>

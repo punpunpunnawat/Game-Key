@@ -1,0 +1,18 @@
+.game-tag-menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: var(--neutral-color);
+}
+
+.game-tag-menu__button {
+    all: unset;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 48px;
+    font-size: 24px;
+    text-align: center;
+    box-shadow: inset -1px 0 0 0 rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
