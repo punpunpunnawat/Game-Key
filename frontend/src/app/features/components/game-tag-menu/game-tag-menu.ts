@@ -7,10 +7,10 @@ import { Component, input, output } from '@angular/core';
   styleUrl: './game-tag-menu.css',
 })
 export class GameTagMenu {
-  // รับ tags จาก parent
+  // get tags from parent
   tagsName = input<string[]>([]);
 
-  // ส่ง event กลับไปหา parent
+  // sent event to parent
   tagSelected = output<string>();
 
   onTagClick(tag: string) {

@@ -40,3 +40,23 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Node / npm
+node_modules/
+package-lock.json
+yarn.lock
+
+# Angular / build
+dist/
+out-tsc/
+.angular/cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local

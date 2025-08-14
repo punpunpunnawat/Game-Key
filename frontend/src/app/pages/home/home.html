@@ -19,9 +19,15 @@
       </span>
     </div>
     <div class="home__content_platform">
-      <button class="platform-button" routerLink="/steam"><img src="./svg/steam.svg" width="96" height="96"/>STEAM</button>
-      <button class="platform-button" routerLink="/playstation"><img src="./svg/playstation.svg" width="96" height="96"/>STEAM</button>
-      <button class="platform-button" routerLink="/nintendo-switch"><img src="./svg/nintendo-switch.svg" width="96" height="96"/>STEAM</button>
+      <button (click)="fetchGame()" class="platform-button" routerLink="/steam">
+        <img src="./svg/steam.svg" width="96" height="96" />STEAM
+      </button>
+      <button class="platform-button" routerLink="/playstation">
+        <img src="./svg/playstation.svg" width="96" height="96" />STEAM
+      </button>
+      <button class="platform-button" routerLink="/nintendo-switch">
+        <img src="./svg/nintendo-switch.svg" width="96" height="96" />STEAM
+      </button>
     </div>
   </div>
 </main>
