@@ -1,0 +1,86 @@
+.game-card {
+  position: relative;
+  width: 300px;
+  height: 375px;
+  overflow: hidden;
+  background-color: var(--neutral-color);
+  border-radius: 8px;
+}
+
+.game-card__thumbnail {
+  height: 200px;
+}
+
+.game-card__label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: var(--rose-color);
+  gap: 8px;
+}
+
+.game-card__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+}
+
+.game-card__detail_price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.game-card__detail_price_before {
+  margin: 0;
+  text-decoration: line-through;
+  color: var(--rose-color);
+}
+
+.game-card__detail_price_after {
+  margin: 0;
+}
+
+.game-card__detail_button {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+}
+
+.game-card__detail_button_add,
+.game-card__detail_button_buy {
+  all: unset;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.game-card__detail_button_add:hover,
+.game-card__detail_button_buy:hover {
+  filter: brightness(85%);
+}
+
+.game-card__detail_button_add {
+  text-decoration: line-through;
+  box-shadow: inset 0 0 0 1px white;
+}
+
+.game-card__detail_button_buy {
+  background-color: var(--rose-color);
+}
+
+.game-card__discount {
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  width: 128px;
+  text-align: center;
+  color: white;
+  background-color: var(--rose-color);
+  transform: rotate(45deg);
+  transform-origin: center; /* หมุนรอบมุมบนขวา */
+}

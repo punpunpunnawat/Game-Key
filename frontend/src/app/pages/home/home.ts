@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavBar } from "../../shared/components/nav-bar/nav-bar";
+import { getGame } from '../../core/api/api';
 
 @Component({
   selector: 'app-home',
@@ -9,11 +10,9 @@ import { NavBar } from "../../shared/components/nav-bar/nav-bar";
 })
 
 export class Home {
-  fetchGame = () => {
+  fetchGame = async () => {
     console.log("called api");
-    fetch("http://localhost:8080/test")
-      .then(response => response.text())
-      .then(data => console.log(data))
-      .catch(err => console.error(err));
+    const games = await getGame("token");
+    console.log(games)
   }
 }

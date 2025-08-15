@@ -1,6 +1,7 @@
 .steam {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .steam__banner {
@@ -18,5 +19,6 @@
 
 .steam__content {
   display: flex;
+  flex: 1;
   flex-direction: column;
 }
